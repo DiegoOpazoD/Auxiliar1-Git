@@ -15,6 +15,5 @@ class Tarea:
     def listarTareas(self):
         for tarea in self.tareas:
             if tarea.estaLista():
-                print(f"La tarea {tarea.obtenerNombre()} está lista")
-                #voy a borrar esta parte
-                print(f"La prueba {tarea.obtenerNombre()} no está lista")  
+                print(f"La prueba {tarea.obtenerNombre()} está lista")
+
