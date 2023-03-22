@@ -3,7 +3,7 @@ class Usuario:
         self.username = username
         self.password = password
         self.email = email
-        self.tareas = []
+    
 
     def agregarTarea(self, tarea):
         self.tareas.append(tarea)
